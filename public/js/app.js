@@ -1,6 +1,7 @@
 $(document).ready(function(){
   var baseUrl = 'https://api.forecast.io/';
 
+  var name = "Your Name";
   $('#get-weather').on('click', getWeather);
 
 
